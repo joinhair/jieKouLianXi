@@ -12,5 +12,14 @@
 
 @property (nonatomic, strong) UITextField *userName;
 @property (nonatomic, strong) UITextField *password;
+
+- (void)getRequest;
+- (void)postRequest;
+
+- (void)syncGet;
+- (void)syncPost;
+
+- (void)aSyncGet;
+- (void)aSyncPost;
 @end
 
